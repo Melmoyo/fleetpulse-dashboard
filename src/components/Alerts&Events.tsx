@@ -27,7 +27,10 @@ const AlertsEvents = () => {
             {minimize && (
               <div className="flex bg-card flex-col justify-between gap-4  p-4 rounded-lg">
                 {alerts.slice(0, 5).map((alert) => (
-                  <AlertCard key={alert.id} alert={alert} />
+                  <AlertCard
+                    key={alert.id}
+                    alert={{ ...alert, level: alert.level as any }}
+                  />
                 ))}
               </div>
             )}

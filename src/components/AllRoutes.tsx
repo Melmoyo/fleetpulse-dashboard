@@ -2,7 +2,7 @@ import { useState } from "react";
 import data from "../data/FleetData.json";
 const AllRoutes = () => {
   const [minimize, setMinimize] = useState(true);
-  const { routes, drivers } = data;
+  const { routes } = data;
 
   const getStatusColor = (status: string) => {
     if (status === "active") {

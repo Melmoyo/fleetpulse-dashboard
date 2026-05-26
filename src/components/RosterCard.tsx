@@ -9,7 +9,6 @@ type DriverProps = {
   load: number;
 };
 const RosterCard = ({ drivers }: { drivers: DriverProps }) => {
-  const status = drivers.status;
   const getStatusColor = (status: string) => {
     if (status === "on-route") {
       return "text-accent bg-accent/20";

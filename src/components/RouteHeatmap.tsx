@@ -1,10 +1,10 @@
 import { useState } from "react";
-import data from "../data/FleetData.json";
+// import data from "../data/FleetData.json";
 const RouteHeatMap = () => {
   const [minimize, setMinimize] = useState(true);
-  console.log(data);
-  const { charts } = data;
-  const delayFrequency = charts.on_time_hourly.map((frequency) => ({}));
+
+  // const { charts } = data;
+  // const delayFrequency = charts.on_time_hourly.map((frequency) => ({}));
   return (
     <>
       <article>
