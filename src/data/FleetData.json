@@ -1,0 +1,2038 @@
+{
+  "drivers": [
+    {
+      "id": "D-001",
+      "name": "Marcus Webb",
+      "status": "on-route",
+      "eta": "14 min",
+      "load": 94,
+      "score": 98,
+      "route": "R-12A",
+      "deliveries": 34,
+      "incidents": 0,
+      "joined": "2022-01-14",
+      "vehicle": "V-003",
+      "phone": "555-3821",
+      "base": "Manhattan",
+      "vehicle_type": "Van"
+    },
+    {
+      "id": "D-002",
+      "name": "Priya Nair",
+      "status": "delayed",
+      "eta": "31 min",
+      "load": 67,
+      "score": 82,
+      "route": "R-08B",
+      "deliveries": 28,
+      "incidents": 1,
+      "joined": "2021-03-07",
+      "vehicle": "V-011",
+      "phone": "555-1042",
+      "base": "Brooklyn",
+      "vehicle_type": "Truck"
+    },
+    {
+      "id": "D-003",
+      "name": "Cole Rivers",
+      "status": "on-route",
+      "eta": "8 min",
+      "load": 88,
+      "score": 95,
+      "route": "R-15C",
+      "deliveries": 41,
+      "incidents": 0,
+      "joined": "2020-09-22",
+      "vehicle": "V-007",
+      "phone": "555-9174",
+      "base": "Queens",
+      "vehicle_type": "Van"
+    },
+    {
+      "id": "D-004",
+      "name": "Amara Diallo",
+      "status": "idle",
+      "eta": "\u2014",
+      "load": 0,
+      "score": 91,
+      "route": "\u2014",
+      "deliveries": 22,
+      "incidents": 0,
+      "joined": "2023-06-01",
+      "vehicle": "V-018",
+      "phone": "555-4430",
+      "base": "Bronx",
+      "vehicle_type": "SUV"
+    },
+    {
+      "id": "D-005",
+      "name": "Jin Park",
+      "status": "on-route",
+      "eta": "22 min",
+      "load": 75,
+      "score": 87,
+      "route": "R-03D",
+      "deliveries": 38,
+      "incidents": 1,
+      "joined": "2021-11-15",
+      "vehicle": "V-002",
+      "phone": "555-7763",
+      "base": "Manhattan",
+      "vehicle_type": "Van"
+    },
+    {
+      "id": "D-006",
+      "name": "Sam Osei",
+      "status": "complete",
+      "eta": "Done",
+      "load": 100,
+      "score": 99,
+      "route": "R-07E",
+      "deliveries": 44,
+      "incidents": 0,
+      "joined": "2019-04-18",
+      "vehicle": "V-009",
+      "phone": "555-2291",
+      "base": "Queens",
+      "vehicle_type": "Truck"
+    },
+    {
+      "id": "D-007",
+      "name": "Lena M\u00fcller",
+      "status": "delayed",
+      "eta": "48 min",
+      "load": 52,
+      "score": 74,
+      "route": "R-11F",
+      "deliveries": 18,
+      "incidents": 2,
+      "joined": "2022-08-30",
+      "vehicle": "V-014",
+      "phone": "555-6657",
+      "base": "Jersey City",
+      "vehicle_type": "Van"
+    },
+    {
+      "id": "D-008",
+      "name": "Tom Adeyemi",
+      "status": "complete",
+      "eta": "Done",
+      "load": 100,
+      "score": 96,
+      "route": "R-04G",
+      "deliveries": 39,
+      "incidents": 0,
+      "joined": "2020-02-11",
+      "vehicle": "V-006",
+      "phone": "555-3348",
+      "base": "Manhattan",
+      "vehicle_type": "Motorcycle"
+    },
+    {
+      "id": "D-009",
+      "name": "Yuki Tanaka",
+      "status": "on-route",
+      "eta": "19 min",
+      "load": 81,
+      "score": 90,
+      "route": "R-09H",
+      "deliveries": 31,
+      "incidents": 0,
+      "joined": "2021-07-25",
+      "vehicle": "V-020",
+      "phone": "555-8812",
+      "base": "Brooklyn",
+      "vehicle_type": "Van"
+    },
+    {
+      "id": "D-010",
+      "name": "Nia Mensah",
+      "status": "idle",
+      "eta": "\u2014",
+      "load": 0,
+      "score": 88,
+      "route": "\u2014",
+      "deliveries": 26,
+      "incidents": 1,
+      "joined": "2023-01-09",
+      "vehicle": "V-015",
+      "phone": "555-5509",
+      "base": "Staten Island",
+      "vehicle_type": "Car"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "V-001",
+      "type": "Van",
+      "make": "Ford",
+      "model": "Transit",
+      "year": 2021,
+      "fuel_type": "Diesel",
+      "capacity_kg": 1000,
+      "odometer_km": 84200,
+      "fuel_level_pct": 72,
+      "status": "active",
+      "last_service": "2024-10-15"
+    },
+    {
+      "id": "V-002",
+      "type": "Van",
+      "make": "Mercedes",
+      "model": "Sprinter",
+      "year": 2022,
+      "fuel_type": "Diesel",
+      "capacity_kg": 1200,
+      "odometer_km": 51300,
+      "fuel_level_pct": 55,
+      "status": "active",
+      "last_service": "2024-11-02"
+    },
+    {
+      "id": "V-003",
+      "type": "Van",
+      "make": "Volkswagen",
+      "model": "Crafter",
+      "year": 2020,
+      "fuel_type": "Diesel",
+      "capacity_kg": 1000,
+      "odometer_km": 112000,
+      "fuel_level_pct": 88,
+      "status": "active",
+      "last_service": "2024-09-28"
+    },
+    {
+      "id": "V-004",
+      "type": "Truck",
+      "make": "Iveco",
+      "model": "Daily",
+      "year": 2019,
+      "fuel_type": "Diesel",
+      "capacity_kg": 2000,
+      "odometer_km": 198000,
+      "fuel_level_pct": 14,
+      "status": "active",
+      "last_service": "2024-08-14"
+    },
+    {
+      "id": "V-005",
+      "type": "Motorcycle",
+      "make": "Honda",
+      "model": "CB500",
+      "year": 2023,
+      "fuel_type": "Petrol",
+      "capacity_kg": 30,
+      "odometer_km": 8900,
+      "fuel_level_pct": 91,
+      "status": "active",
+      "last_service": "2024-12-01"
+    },
+    {
+      "id": "V-006",
+      "type": "Motorcycle",
+      "make": "Yamaha",
+      "model": "MT-07",
+      "year": 2022,
+      "fuel_type": "Petrol",
+      "capacity_kg": 30,
+      "odometer_km": 22100,
+      "fuel_level_pct": 67,
+      "status": "active",
+      "last_service": "2024-10-30"
+    },
+    {
+      "id": "V-007",
+      "type": "Van",
+      "make": "Ford",
+      "model": "Transit",
+      "year": 2021,
+      "fuel_type": "Electric",
+      "capacity_kg": 900,
+      "odometer_km": 44800,
+      "fuel_level_pct": 79,
+      "status": "active",
+      "last_service": "2024-11-18"
+    },
+    {
+      "id": "V-008",
+      "type": "SUV",
+      "make": "Toyota",
+      "model": "HiAce",
+      "year": 2020,
+      "fuel_type": "Hybrid",
+      "capacity_kg": 600,
+      "odometer_km": 73400,
+      "fuel_level_pct": 45,
+      "status": "maintenance",
+      "last_service": "2024-12-01"
+    },
+    {
+      "id": "V-009",
+      "type": "Truck",
+      "make": "Renault",
+      "model": "Master",
+      "year": 2018,
+      "fuel_type": "Diesel",
+      "capacity_kg": 1800,
+      "odometer_km": 241000,
+      "fuel_level_pct": 62,
+      "status": "active",
+      "last_service": "2024-07-22"
+    },
+    {
+      "id": "V-010",
+      "type": "Van",
+      "make": "Mercedes",
+      "model": "Vito",
+      "year": 2023,
+      "fuel_type": "Electric",
+      "capacity_kg": 800,
+      "odometer_km": 12300,
+      "fuel_level_pct": 94,
+      "status": "active",
+      "last_service": "2024-11-25"
+    }
+  ],
+  "routes": [
+    {
+      "id": "R-12A",
+      "name": "Downtown Express",
+      "zone_from": "Downtown",
+      "zone_to": "Midtown",
+      "driver_id": "D-001",
+      "vehicle_id": "V-003",
+      "stops": 12,
+      "stops_done": 8,
+      "status": "active",
+      "eta": "14 min",
+      "distance_km": 34.2,
+      "avg_duration_hr": 3.2,
+      "on_time_rate": 92
+    },
+    {
+      "id": "R-08B",
+      "name": "Harbor Loop",
+      "zone_from": "Harbor",
+      "zone_to": "Eastside",
+      "driver_id": "D-002",
+      "vehicle_id": "V-011",
+      "stops": 9,
+      "stops_done": 4,
+      "status": "delayed",
+      "eta": "31 min",
+      "distance_km": 28.7,
+      "avg_duration_hr": 2.8,
+      "on_time_rate": 61
+    },
+    {
+      "id": "R-15C",
+      "name": "Northside Circuit",
+      "zone_from": "Northside",
+      "zone_to": "Uptown",
+      "driver_id": "D-003",
+      "vehicle_id": "V-007",
+      "stops": 15,
+      "stops_done": 13,
+      "status": "active",
+      "eta": "8 min",
+      "distance_km": 41.0,
+      "avg_duration_hr": 4.1,
+      "on_time_rate": 94
+    },
+    {
+      "id": "R-03D",
+      "name": "Westpark Run",
+      "zone_from": "Westpark",
+      "zone_to": "Central",
+      "driver_id": "D-005",
+      "vehicle_id": "V-002",
+      "stops": 11,
+      "stops_done": 7,
+      "status": "active",
+      "eta": "22 min",
+      "distance_km": 29.4,
+      "avg_duration_hr": 3.0,
+      "on_time_rate": 88
+    },
+    {
+      "id": "R-07E",
+      "name": "Airport Corridor",
+      "zone_from": "Airport",
+      "zone_to": "Midtown",
+      "driver_id": "D-006",
+      "vehicle_id": "V-009",
+      "stops": 6,
+      "stops_done": 6,
+      "status": "complete",
+      "eta": "Done",
+      "distance_km": 19.8,
+      "avg_duration_hr": 1.9,
+      "on_time_rate": 100
+    },
+    {
+      "id": "R-11F",
+      "name": "Riverside South",
+      "zone_from": "Riverside",
+      "zone_to": "Industrial",
+      "driver_id": "D-007",
+      "vehicle_id": "V-014",
+      "stops": 10,
+      "stops_done": 3,
+      "status": "delayed",
+      "eta": "48 min",
+      "distance_km": 31.5,
+      "avg_duration_hr": 3.3,
+      "on_time_rate": 55
+    },
+    {
+      "id": "R-04G",
+      "name": "Central Loop",
+      "zone_from": "Central",
+      "zone_to": "Financial",
+      "driver_id": "D-008",
+      "vehicle_id": "V-006",
+      "stops": 8,
+      "stops_done": 8,
+      "status": "complete",
+      "eta": "Done",
+      "distance_km": 22.1,
+      "avg_duration_hr": 2.2,
+      "on_time_rate": 100
+    },
+    {
+      "id": "R-09H",
+      "name": "Financial District",
+      "zone_from": "Financial",
+      "zone_to": "Harbor",
+      "driver_id": "D-009",
+      "vehicle_id": "V-020",
+      "stops": 14,
+      "stops_done": 9,
+      "status": "active",
+      "eta": "19 min",
+      "distance_km": 38.6,
+      "avg_duration_hr": 3.8,
+      "on_time_rate": 86
+    },
+    {
+      "id": "R-02I",
+      "name": "Uptown Express",
+      "zone_from": "Uptown",
+      "zone_to": "Northside",
+      "driver_id": "D-010",
+      "vehicle_id": "V-015",
+      "stops": 7,
+      "stops_done": 0,
+      "status": "pending",
+      "eta": "\u2014",
+      "distance_km": 18.3,
+      "avg_duration_hr": 1.8,
+      "on_time_rate": 79
+    },
+    {
+      "id": "R-06J",
+      "name": "Industrial Mile",
+      "zone_from": "Industrial",
+      "zone_to": "Eastside",
+      "driver_id": "D-004",
+      "vehicle_id": "V-018",
+      "stops": 9,
+      "stops_done": 0,
+      "status": "pending",
+      "eta": "\u2014",
+      "distance_km": 24.7,
+      "avg_duration_hr": 2.5,
+      "on_time_rate": 83
+    }
+  ],
+  "alerts": [
+    {
+      "id": "A-001",
+      "level": "warn",
+      "msg": "D-002 Priya Nair \u2014 18 min behind schedule on R-08B",
+      "time": "2m ago",
+      "driver_id": "D-002",
+      "route_id": "R-08B"
+    },
+    {
+      "id": "A-002",
+      "level": "warn",
+      "msg": "Vehicle V-004 fuel below 15% \u2014 nearest depot: 3.2km",
+      "time": "5m ago",
+      "vehicle_id": "V-004"
+    },
+    {
+      "id": "A-003",
+      "level": "ok",
+      "msg": "Route R-12A checkpoint 4/6 completed ahead of schedule",
+      "time": "8m ago",
+      "route_id": "R-12A"
+    },
+    {
+      "id": "A-004",
+      "level": "info",
+      "msg": "Heavy traffic on I-278 \u2014 R-08B and R-11F affected",
+      "time": "12m ago",
+      "route_id": "R-08B"
+    },
+    {
+      "id": "A-005",
+      "level": "ok",
+      "msg": "D-003 Cole Rivers completed morning run \u2014 3 stops early",
+      "time": "19m ago",
+      "driver_id": "D-003"
+    },
+    {
+      "id": "A-006",
+      "level": "critical",
+      "msg": "Vehicle V-009 engine warning light \u2014 inspection required",
+      "time": "24m ago",
+      "vehicle_id": "V-009"
+    },
+    {
+      "id": "A-007",
+      "level": "warn",
+      "msg": "D-007 Lena M\u00fcller speed below threshold on R-11F",
+      "time": "31m ago",
+      "driver_id": "D-007"
+    },
+    {
+      "id": "A-008",
+      "level": "info",
+      "msg": "Depot B capacity at 80% \u2014 rerouting 4 returns",
+      "time": "45m ago"
+    }
+  ],
+  "gps_positions": [
+    {
+      "driver_id": "D-001",
+      "lat": 40.7282,
+      "lng": -74.0776,
+      "speed_kmh": 42,
+      "heading": 45,
+      "timestamp": "2024-12-13T14:22:10Z"
+    },
+    {
+      "driver_id": "D-002",
+      "lat": 40.7489,
+      "lng": -73.968,
+      "speed_kmh": 18,
+      "heading": 92,
+      "timestamp": "2024-12-13T14:22:08Z"
+    },
+    {
+      "driver_id": "D-003",
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "speed_kmh": 55,
+      "heading": 312,
+      "timestamp": "2024-12-13T14:22:12Z"
+    },
+    {
+      "driver_id": "D-005",
+      "lat": 40.7614,
+      "lng": -73.9776,
+      "speed_kmh": 31,
+      "heading": 180,
+      "timestamp": "2024-12-13T14:22:09Z"
+    },
+    {
+      "driver_id": "D-006",
+      "lat": 40.702,
+      "lng": -74.0159,
+      "speed_kmh": 0,
+      "heading": 0,
+      "timestamp": "2024-12-13T14:22:11Z"
+    },
+    {
+      "driver_id": "D-007",
+      "lat": 40.734,
+      "lng": -74.0524,
+      "speed_kmh": 24,
+      "heading": 270,
+      "timestamp": "2024-12-13T14:22:07Z"
+    },
+    {
+      "driver_id": "D-008",
+      "lat": 40.7128,
+      "lng": -74.0059,
+      "speed_kmh": 0,
+      "heading": 0,
+      "timestamp": "2024-12-13T14:22:13Z"
+    },
+    {
+      "driver_id": "D-009",
+      "lat": 40.758,
+      "lng": -73.9855,
+      "speed_kmh": 38,
+      "heading": 135,
+      "timestamp": "2024-12-13T14:22:06Z"
+    }
+  ],
+  "kpis": {
+    "overview": {
+      "active_drivers": {
+        "value": 34,
+        "change": "+2",
+        "trend": "up",
+        "sub": "from yesterday"
+      },
+      "on_time_rate": {
+        "value": "87.4%",
+        "change": "-2.1%",
+        "trend": "down",
+        "sub": "vs 7-day avg"
+      },
+      "deliveries_today": {
+        "value": 1284,
+        "change": "+94",
+        "trend": "up",
+        "sub": "of 1,420 target"
+      },
+      "avg_fuel_cost_per_km": {
+        "value": "$0.38",
+        "change": "+$0.02",
+        "trend": "down",
+        "sub": "vs last week"
+      }
+    },
+    "routes": {
+      "active_routes": {
+        "value": 12,
+        "change": "+3",
+        "trend": "up",
+        "sub": "more than yesterday"
+      },
+      "completed_today": {
+        "value": 28,
+        "change": "+4",
+        "trend": "up",
+        "sub": "93% completion rate"
+      },
+      "avg_duration": {
+        "value": "3.4h",
+        "change": "0",
+        "trend": "neutral",
+        "sub": "same as last week"
+      },
+      "delayed_routes": {
+        "value": 3,
+        "change": "+1",
+        "trend": "down",
+        "sub": "from this morning"
+      }
+    },
+    "drivers": {
+      "total_drivers": {
+        "value": 47,
+        "change": "0",
+        "trend": "neutral",
+        "sub": "34 on shift today"
+      },
+      "avg_performance": {
+        "value": 91.2,
+        "change": "+1.4",
+        "trend": "up",
+        "sub": "this month"
+      },
+      "incidents_30d": {
+        "value": 2,
+        "change": "-3",
+        "trend": "up",
+        "sub": "vs last month"
+      },
+      "avg_deliveries_per_day": {
+        "value": 38.6,
+        "change": "+2.1",
+        "trend": "up",
+        "sub": "vs last week"
+      }
+    },
+    "analytics": {
+      "deliveries_mtd": {
+        "value": "32,841",
+        "change": "+8.3%",
+        "trend": "up",
+        "sub": "vs last month"
+      },
+      "fuel_spend_mtd": {
+        "value": "$61,240",
+        "change": "-2.1%",
+        "trend": "up",
+        "sub": "vs budget"
+      },
+      "avg_on_time_rate": {
+        "value": "89.1%",
+        "change": "+1.2%",
+        "trend": "up",
+        "sub": "vs last month"
+      },
+      "cost_per_delivery": {
+        "value": "$1.86",
+        "change": "-$0.04",
+        "trend": "up",
+        "sub": "vs last month"
+      }
+    }
+  },
+  "charts": {
+    "on_time_hourly": [
+      {
+        "hour": "06:00",
+        "on_time": 92,
+        "delayed": 8,
+        "volume": 48
+      },
+      {
+        "hour": "07:00",
+        "on_time": 88,
+        "delayed": 12,
+        "volume": 112
+      },
+      {
+        "hour": "08:00",
+        "on_time": 85,
+        "delayed": 15,
+        "volume": 198
+      },
+      {
+        "hour": "09:00",
+        "on_time": 89,
+        "delayed": 11,
+        "volume": 241
+      },
+      {
+        "hour": "10:00",
+        "on_time": 91,
+        "delayed": 9,
+        "volume": 224
+      },
+      {
+        "hour": "11:00",
+        "on_time": 87,
+        "delayed": 13,
+        "volume": 196
+      },
+      {
+        "hour": "12:00",
+        "on_time": 76,
+        "delayed": 24,
+        "volume": 188
+      },
+      {
+        "hour": "13:00",
+        "on_time": 83,
+        "delayed": 17,
+        "volume": 211
+      },
+      {
+        "hour": "14:00",
+        "on_time": 91,
+        "delayed": 9,
+        "volume": 229
+      },
+      {
+        "hour": "15:00",
+        "on_time": 88,
+        "delayed": 12,
+        "volume": 218
+      },
+      {
+        "hour": "16:00",
+        "on_time": 83,
+        "delayed": 17,
+        "volume": 201
+      },
+      {
+        "hour": "17:00",
+        "on_time": 79,
+        "delayed": 21,
+        "volume": 176
+      },
+      {
+        "hour": "18:00",
+        "on_time": 94,
+        "delayed": 6,
+        "volume": 142
+      },
+      {
+        "hour": "19:00",
+        "on_time": 96,
+        "delayed": 4,
+        "volume": 98
+      },
+      {
+        "hour": "20:00",
+        "on_time": 97,
+        "delayed": 3,
+        "volume": 54
+      }
+    ],
+    "fuel_weekly": [
+      {
+        "day": "Mon",
+        "cost_usd": 2140,
+        "litres": 1561,
+        "avg_cost_per_km": 0.36
+      },
+      {
+        "day": "Tue",
+        "cost_usd": 1980,
+        "litres": 1444,
+        "avg_cost_per_km": 0.34
+      },
+      {
+        "day": "Wed",
+        "cost_usd": 2310,
+        "litres": 1686,
+        "avg_cost_per_km": 0.39
+      },
+      {
+        "day": "Thu",
+        "cost_usd": 2050,
+        "litres": 1496,
+        "avg_cost_per_km": 0.36
+      },
+      {
+        "day": "Fri",
+        "cost_usd": 2480,
+        "litres": 1810,
+        "avg_cost_per_km": 0.41
+      },
+      {
+        "day": "Sat",
+        "cost_usd": 1760,
+        "litres": 1285,
+        "avg_cost_per_km": 0.33
+      },
+      {
+        "day": "Sun",
+        "cost_usd": 1540,
+        "litres": 1124,
+        "avg_cost_per_km": 0.3
+      }
+    ],
+    "monthly_deliveries": [
+      {
+        "month": "Jan",
+        "deliveries": 28400,
+        "on_time_rate": 88.1,
+        "target": 28000
+      },
+      {
+        "month": "Feb",
+        "deliveries": 31200,
+        "on_time_rate": 89.4,
+        "target": 30000
+      },
+      {
+        "month": "Mar",
+        "deliveries": 29800,
+        "on_time_rate": 87.6,
+        "target": 30000
+      },
+      {
+        "month": "Apr",
+        "deliveries": 33100,
+        "on_time_rate": 90.2,
+        "target": 32000
+      },
+      {
+        "month": "May",
+        "deliveries": 30500,
+        "on_time_rate": 86.8,
+        "target": 31000
+      },
+      {
+        "month": "Jun",
+        "deliveries": 34200,
+        "on_time_rate": 91.1,
+        "target": 33000
+      },
+      {
+        "month": "Jul",
+        "deliveries": 32800,
+        "on_time_rate": 89.7,
+        "target": 33000
+      },
+      {
+        "month": "Aug",
+        "deliveries": 35600,
+        "on_time_rate": 92.3,
+        "target": 34000
+      },
+      {
+        "month": "Sep",
+        "deliveries": 33400,
+        "on_time_rate": 88.9,
+        "target": 34000
+      },
+      {
+        "month": "Oct",
+        "deliveries": 36800,
+        "on_time_rate": 91.8,
+        "target": 35000
+      },
+      {
+        "month": "Nov",
+        "deliveries": 34100,
+        "on_time_rate": 90.1,
+        "target": 35000
+      },
+      {
+        "month": "Dec",
+        "deliveries": 32841,
+        "on_time_rate": 87.4,
+        "target": 36000
+      }
+    ],
+    "monthly_fuel": [
+      {
+        "month": "Jan",
+        "cost_usd": 58200,
+        "budget": 60000,
+        "litres": 42482
+      },
+      {
+        "month": "Feb",
+        "cost_usd": 60100,
+        "budget": 60000,
+        "litres": 43869
+      },
+      {
+        "month": "Mar",
+        "cost_usd": 55400,
+        "budget": 60000,
+        "litres": 40438
+      },
+      {
+        "month": "Apr",
+        "cost_usd": 61800,
+        "budget": 62000,
+        "litres": 45109
+      },
+      {
+        "month": "May",
+        "cost_usd": 57300,
+        "budget": 62000,
+        "litres": 41825
+      },
+      {
+        "month": "Jun",
+        "cost_usd": 63200,
+        "budget": 62000,
+        "litres": 46131
+      },
+      {
+        "month": "Jul",
+        "cost_usd": 59800,
+        "budget": 63000,
+        "litres": 43649
+      },
+      {
+        "month": "Aug",
+        "cost_usd": 64100,
+        "budget": 63000,
+        "litres": 46788
+      },
+      {
+        "month": "Sep",
+        "cost_usd": 61500,
+        "budget": 63000,
+        "litres": 44891
+      },
+      {
+        "month": "Oct",
+        "cost_usd": 65400,
+        "budget": 64000,
+        "litres": 47737
+      },
+      {
+        "month": "Nov",
+        "cost_usd": 62100,
+        "budget": 64000,
+        "litres": 45328
+      },
+      {
+        "month": "Dec",
+        "cost_usd": 61240,
+        "budget": 65000,
+        "litres": 44701
+      }
+    ],
+    "delay_reasons": [
+      {
+        "reason": "Traffic",
+        "count": 847,
+        "percentage": 42
+      },
+      {
+        "reason": "Weather",
+        "count": 564,
+        "percentage": 28
+      },
+      {
+        "reason": "Mechanical",
+        "count": 363,
+        "percentage": 18
+      },
+      {
+        "reason": "Other",
+        "count": 242,
+        "percentage": 12
+      }
+    ],
+    "driver_perf_dist": [
+      {
+        "range": "60-70",
+        "count": 1
+      },
+      {
+        "range": "70-75",
+        "count": 2
+      },
+      {
+        "range": "75-80",
+        "count": 3
+      },
+      {
+        "range": "80-85",
+        "count": 5
+      },
+      {
+        "range": "85-90",
+        "count": 8
+      },
+      {
+        "range": "90-95",
+        "count": 12
+      },
+      {
+        "range": "95-100",
+        "count": 9
+      },
+      {
+        "range": "100+",
+        "count": 7
+      }
+    ],
+    "drivers": [
+      {
+        "id": "D-001",
+        "name": "Marcus Webb",
+        "status": "on-route",
+        "eta": "14 min",
+        "load": 94,
+        "score": 98,
+        "route": "R-12A",
+        "deliveries": 34,
+        "incidents": 0,
+        "joined": "2022-01-14",
+        "vehicle": "V-003",
+        "phone": "555-3821",
+        "base": "Manhattan",
+        "vehicle_type": "Van"
+      },
+      {
+        "id": "D-002",
+        "name": "Priya Nair",
+        "status": "delayed",
+        "eta": "31 min",
+        "load": 67,
+        "score": 82,
+        "route": "R-08B",
+        "deliveries": 28,
+        "incidents": 1,
+        "joined": "2021-03-07",
+        "vehicle": "V-011",
+        "phone": "555-1042",
+        "base": "Brooklyn",
+        "vehicle_type": "Truck"
+      },
+      {
+        "id": "D-003",
+        "name": "Cole Rivers",
+        "status": "on-route",
+        "eta": "8 min",
+        "load": 88,
+        "score": 95,
+        "route": "R-15C",
+        "deliveries": 41,
+        "incidents": 0,
+        "joined": "2020-09-22",
+        "vehicle": "V-007",
+        "phone": "555-9174",
+        "base": "Queens",
+        "vehicle_type": "Van"
+      },
+      {
+        "id": "D-004",
+        "name": "Amara Diallo",
+        "status": "idle",
+        "eta": "\u2014",
+        "load": 0,
+        "score": 91,
+        "route": "\u2014",
+        "deliveries": 22,
+        "incidents": 0,
+        "joined": "2023-06-01",
+        "vehicle": "V-018",
+        "phone": "555-4430",
+        "base": "Bronx",
+        "vehicle_type": "SUV"
+      },
+      {
+        "id": "D-005",
+        "name": "Jin Park",
+        "status": "on-route",
+        "eta": "22 min",
+        "load": 75,
+        "score": 87,
+        "route": "R-03D",
+        "deliveries": 38,
+        "incidents": 1,
+        "joined": "2021-11-15",
+        "vehicle": "V-002",
+        "phone": "555-7763",
+        "base": "Manhattan",
+        "vehicle_type": "Van"
+      },
+      {
+        "id": "D-006",
+        "name": "Sam Osei",
+        "status": "complete",
+        "eta": "Done",
+        "load": 100,
+        "score": 99,
+        "route": "R-07E",
+        "deliveries": 44,
+        "incidents": 0,
+        "joined": "2019-04-18",
+        "vehicle": "V-009",
+        "phone": "555-2291",
+        "base": "Queens",
+        "vehicle_type": "Truck"
+      },
+      {
+        "id": "D-007",
+        "name": "Lena M\u00fcller",
+        "status": "delayed",
+        "eta": "48 min",
+        "load": 52,
+        "score": 74,
+        "route": "R-11F",
+        "deliveries": 18,
+        "incidents": 2,
+        "joined": "2022-08-30",
+        "vehicle": "V-014",
+        "phone": "555-6657",
+        "base": "Jersey City",
+        "vehicle_type": "Van"
+      },
+      {
+        "id": "D-008",
+        "name": "Tom Adeyemi",
+        "status": "complete",
+        "eta": "Done",
+        "load": 100,
+        "score": 96,
+        "route": "R-04G",
+        "deliveries": 39,
+        "incidents": 0,
+        "joined": "2020-02-11",
+        "vehicle": "V-006",
+        "phone": "555-3348",
+        "base": "Manhattan",
+        "vehicle_type": "Motorcycle"
+      },
+      {
+        "id": "D-009",
+        "name": "Yuki Tanaka",
+        "status": "on-route",
+        "eta": "19 min",
+        "load": 81,
+        "score": 90,
+        "route": "R-09H",
+        "deliveries": 31,
+        "incidents": 0,
+        "joined": "2021-07-25",
+        "vehicle": "V-020",
+        "phone": "555-8812",
+        "base": "Brooklyn",
+        "vehicle_type": "Van"
+      },
+      {
+        "id": "D-010",
+        "name": "Nia Mensah",
+        "status": "idle",
+        "eta": "\u2014",
+        "load": 0,
+        "score": 88,
+        "route": "\u2014",
+        "deliveries": 26,
+        "incidents": 1,
+        "joined": "2023-01-09",
+        "vehicle": "V-015",
+        "phone": "555-5509",
+        "base": "Staten Island",
+        "vehicle_type": "Car"
+      }
+    ],
+    "vehicles": [
+      {
+        "id": "V-001",
+        "type": "Van",
+        "make": "Ford",
+        "model": "Transit",
+        "year": 2021,
+        "fuel_type": "Diesel",
+        "capacity_kg": 1000,
+        "odometer_km": 84200,
+        "fuel_level_pct": 72,
+        "status": "active",
+        "last_service": "2024-10-15"
+      },
+      {
+        "id": "V-002",
+        "type": "Van",
+        "make": "Mercedes",
+        "model": "Sprinter",
+        "year": 2022,
+        "fuel_type": "Diesel",
+        "capacity_kg": 1200,
+        "odometer_km": 51300,
+        "fuel_level_pct": 55,
+        "status": "active",
+        "last_service": "2024-11-02"
+      },
+      {
+        "id": "V-003",
+        "type": "Van",
+        "make": "Volkswagen",
+        "model": "Crafter",
+        "year": 2020,
+        "fuel_type": "Diesel",
+        "capacity_kg": 1000,
+        "odometer_km": 112000,
+        "fuel_level_pct": 88,
+        "status": "active",
+        "last_service": "2024-09-28"
+      },
+      {
+        "id": "V-004",
+        "type": "Truck",
+        "make": "Iveco",
+        "model": "Daily",
+        "year": 2019,
+        "fuel_type": "Diesel",
+        "capacity_kg": 2000,
+        "odometer_km": 198000,
+        "fuel_level_pct": 14,
+        "status": "active",
+        "last_service": "2024-08-14"
+      },
+      {
+        "id": "V-005",
+        "type": "Motorcycle",
+        "make": "Honda",
+        "model": "CB500",
+        "year": 2023,
+        "fuel_type": "Petrol",
+        "capacity_kg": 30,
+        "odometer_km": 8900,
+        "fuel_level_pct": 91,
+        "status": "active",
+        "last_service": "2024-12-01"
+      },
+      {
+        "id": "V-006",
+        "type": "Motorcycle",
+        "make": "Yamaha",
+        "model": "MT-07",
+        "year": 2022,
+        "fuel_type": "Petrol",
+        "capacity_kg": 30,
+        "odometer_km": 22100,
+        "fuel_level_pct": 67,
+        "status": "active",
+        "last_service": "2024-10-30"
+      },
+      {
+        "id": "V-007",
+        "type": "Van",
+        "make": "Ford",
+        "model": "Transit",
+        "year": 2021,
+        "fuel_type": "Electric",
+        "capacity_kg": 900,
+        "odometer_km": 44800,
+        "fuel_level_pct": 79,
+        "status": "active",
+        "last_service": "2024-11-18"
+      },
+      {
+        "id": "V-008",
+        "type": "SUV",
+        "make": "Toyota",
+        "model": "HiAce",
+        "year": 2020,
+        "fuel_type": "Hybrid",
+        "capacity_kg": 600,
+        "odometer_km": 73400,
+        "fuel_level_pct": 45,
+        "status": "maintenance",
+        "last_service": "2024-12-01"
+      },
+      {
+        "id": "V-009",
+        "type": "Truck",
+        "make": "Renault",
+        "model": "Master",
+        "year": 2018,
+        "fuel_type": "Diesel",
+        "capacity_kg": 1800,
+        "odometer_km": 241000,
+        "fuel_level_pct": 62,
+        "status": "active",
+        "last_service": "2024-07-22"
+      },
+      {
+        "id": "V-010",
+        "type": "Van",
+        "make": "Mercedes",
+        "model": "Vito",
+        "year": 2023,
+        "fuel_type": "Electric",
+        "capacity_kg": 800,
+        "odometer_km": 12300,
+        "fuel_level_pct": 94,
+        "status": "active",
+        "last_service": "2024-11-25"
+      }
+    ],
+    "routes": [
+      {
+        "id": "R-12A",
+        "name": "Downtown Express",
+        "zone_from": "Downtown",
+        "zone_to": "Midtown",
+        "driver_id": "D-001",
+        "vehicle_id": "V-003",
+        "stops": 12,
+        "stops_done": 8,
+        "status": "active",
+        "eta": "14 min",
+        "distance_km": 34.2,
+        "avg_duration_hr": 3.2,
+        "on_time_rate": 92
+      },
+      {
+        "id": "R-08B",
+        "name": "Harbor Loop",
+        "zone_from": "Harbor",
+        "zone_to": "Eastside",
+        "driver_id": "D-002",
+        "vehicle_id": "V-011",
+        "stops": 9,
+        "stops_done": 4,
+        "status": "delayed",
+        "eta": "31 min",
+        "distance_km": 28.7,
+        "avg_duration_hr": 2.8,
+        "on_time_rate": 61
+      },
+      {
+        "id": "R-15C",
+        "name": "Northside Circuit",
+        "zone_from": "Northside",
+        "zone_to": "Uptown",
+        "driver_id": "D-003",
+        "vehicle_id": "V-007",
+        "stops": 15,
+        "stops_done": 13,
+        "status": "active",
+        "eta": "8 min",
+        "distance_km": 41.0,
+        "avg_duration_hr": 4.1,
+        "on_time_rate": 94
+      },
+      {
+        "id": "R-03D",
+        "name": "Westpark Run",
+        "zone_from": "Westpark",
+        "zone_to": "Central",
+        "driver_id": "D-005",
+        "vehicle_id": "V-002",
+        "stops": 11,
+        "stops_done": 7,
+        "status": "active",
+        "eta": "22 min",
+        "distance_km": 29.4,
+        "avg_duration_hr": 3.0,
+        "on_time_rate": 88
+      },
+      {
+        "id": "R-07E",
+        "name": "Airport Corridor",
+        "zone_from": "Airport",
+        "zone_to": "Midtown",
+        "driver_id": "D-006",
+        "vehicle_id": "V-009",
+        "stops": 6,
+        "stops_done": 6,
+        "status": "complete",
+        "eta": "Done",
+        "distance_km": 19.8,
+        "avg_duration_hr": 1.9,
+        "on_time_rate": 100
+      },
+      {
+        "id": "R-11F",
+        "name": "Riverside South",
+        "zone_from": "Riverside",
+        "zone_to": "Industrial",
+        "driver_id": "D-007",
+        "vehicle_id": "V-014",
+        "stops": 10,
+        "stops_done": 3,
+        "status": "delayed",
+        "eta": "48 min",
+        "distance_km": 31.5,
+        "avg_duration_hr": 3.3,
+        "on_time_rate": 55
+      },
+      {
+        "id": "R-04G",
+        "name": "Central Loop",
+        "zone_from": "Central",
+        "zone_to": "Financial",
+        "driver_id": "D-008",
+        "vehicle_id": "V-006",
+        "stops": 8,
+        "stops_done": 8,
+        "status": "complete",
+        "eta": "Done",
+        "distance_km": 22.1,
+        "avg_duration_hr": 2.2,
+        "on_time_rate": 100
+      },
+      {
+        "id": "R-09H",
+        "name": "Financial District",
+        "zone_from": "Financial",
+        "zone_to": "Harbor",
+        "driver_id": "D-009",
+        "vehicle_id": "V-020",
+        "stops": 14,
+        "stops_done": 9,
+        "status": "active",
+        "eta": "19 min",
+        "distance_km": 38.6,
+        "avg_duration_hr": 3.8,
+        "on_time_rate": 86
+      },
+      {
+        "id": "R-02I",
+        "name": "Uptown Express",
+        "zone_from": "Uptown",
+        "zone_to": "Northside",
+        "driver_id": "D-010",
+        "vehicle_id": "V-015",
+        "stops": 7,
+        "stops_done": 0,
+        "status": "pending",
+        "eta": "\u2014",
+        "distance_km": 18.3,
+        "avg_duration_hr": 1.8,
+        "on_time_rate": 79
+      },
+      {
+        "id": "R-06J",
+        "name": "Industrial Mile",
+        "zone_from": "Industrial",
+        "zone_to": "Eastside",
+        "driver_id": "D-004",
+        "vehicle_id": "V-018",
+        "stops": 9,
+        "stops_done": 0,
+        "status": "pending",
+        "eta": "\u2014",
+        "distance_km": 24.7,
+        "avg_duration_hr": 2.5,
+        "on_time_rate": 83
+      }
+    ],
+    "alerts": [
+      {
+        "id": "A-001",
+        "level": "warn",
+        "msg": "D-002 Priya Nair \u2014 18 min behind schedule on R-08B",
+        "time": "2m ago",
+        "driver_id": "D-002",
+        "route_id": "R-08B"
+      },
+      {
+        "id": "A-002",
+        "level": "warn",
+        "msg": "Vehicle V-004 fuel below 15% \u2014 nearest depot: 3.2km",
+        "time": "5m ago",
+        "vehicle_id": "V-004"
+      },
+      {
+        "id": "A-003",
+        "level": "ok",
+        "msg": "Route R-12A checkpoint 4/6 completed ahead of schedule",
+        "time": "8m ago",
+        "route_id": "R-12A"
+      },
+      {
+        "id": "A-004",
+        "level": "info",
+        "msg": "Heavy traffic on I-278 \u2014 R-08B and R-11F affected",
+        "time": "12m ago",
+        "route_id": "R-08B"
+      },
+      {
+        "id": "A-005",
+        "level": "ok",
+        "msg": "D-003 Cole Rivers completed morning run \u2014 3 stops early",
+        "time": "19m ago",
+        "driver_id": "D-003"
+      },
+      {
+        "id": "A-006",
+        "level": "critical",
+        "msg": "Vehicle V-009 engine warning light \u2014 inspection required",
+        "time": "24m ago",
+        "vehicle_id": "V-009"
+      },
+      {
+        "id": "A-007",
+        "level": "warn",
+        "msg": "D-007 Lena M\u00fcller speed below threshold on R-11F",
+        "time": "31m ago",
+        "driver_id": "D-007"
+      },
+      {
+        "id": "A-008",
+        "level": "info",
+        "msg": "Depot B capacity at 80% \u2014 rerouting 4 returns",
+        "time": "45m ago"
+      }
+    ],
+    "gps_positions": [
+      {
+        "driver_id": "D-001",
+        "lat": 40.7282,
+        "lng": -74.0776,
+        "speed_kmh": 42,
+        "heading": 45,
+        "timestamp": "2024-12-13T14:22:10Z"
+      },
+      {
+        "driver_id": "D-002",
+        "lat": 40.7489,
+        "lng": -73.968,
+        "speed_kmh": 18,
+        "heading": 92,
+        "timestamp": "2024-12-13T14:22:08Z"
+      },
+      {
+        "driver_id": "D-003",
+        "lat": 40.6892,
+        "lng": -74.0445,
+        "speed_kmh": 55,
+        "heading": 312,
+        "timestamp": "2024-12-13T14:22:12Z"
+      },
+      {
+        "driver_id": "D-005",
+        "lat": 40.7614,
+        "lng": -73.9776,
+        "speed_kmh": 31,
+        "heading": 180,
+        "timestamp": "2024-12-13T14:22:09Z"
+      },
+      {
+        "driver_id": "D-006",
+        "lat": 40.702,
+        "lng": -74.0159,
+        "speed_kmh": 0,
+        "heading": 0,
+        "timestamp": "2024-12-13T14:22:11Z"
+      },
+      {
+        "driver_id": "D-007",
+        "lat": 40.734,
+        "lng": -74.0524,
+        "speed_kmh": 24,
+        "heading": 270,
+        "timestamp": "2024-12-13T14:22:07Z"
+      },
+      {
+        "driver_id": "D-008",
+        "lat": 40.7128,
+        "lng": -74.0059,
+        "speed_kmh": 0,
+        "heading": 0,
+        "timestamp": "2024-12-13T14:22:13Z"
+      },
+      {
+        "driver_id": "D-009",
+        "lat": 40.758,
+        "lng": -73.9855,
+        "speed_kmh": 38,
+        "heading": 135,
+        "timestamp": "2024-12-13T14:22:06Z"
+      }
+    ],
+    "kpis": {
+      "overview": {
+        "active_drivers": {
+          "value": 34,
+          "change": "+2",
+          "trend": "up",
+          "sub": "from yesterday"
+        },
+        "on_time_rate": {
+          "value": "87.4%",
+          "change": "-2.1%",
+          "trend": "down",
+          "sub": "vs 7-day avg"
+        },
+        "deliveries_today": {
+          "value": 1284,
+          "change": "+94",
+          "trend": "up",
+          "sub": "of 1,420 target"
+        },
+        "avg_fuel_cost_per_km": {
+          "value": "$0.38",
+          "change": "+$0.02",
+          "trend": "down",
+          "sub": "vs last week"
+        }
+      },
+      "routes": {
+        "active_routes": {
+          "value": 12,
+          "change": "+3",
+          "trend": "up",
+          "sub": "more than yesterday"
+        },
+        "completed_today": {
+          "value": 28,
+          "change": "+4",
+          "trend": "up",
+          "sub": "93% completion rate"
+        },
+        "avg_duration": {
+          "value": "3.4h",
+          "change": "0",
+          "trend": "neutral",
+          "sub": "same as last week"
+        },
+        "delayed_routes": {
+          "value": 3,
+          "change": "+1",
+          "trend": "down",
+          "sub": "from this morning"
+        }
+      },
+      "drivers": {
+        "total_drivers": {
+          "value": 47,
+          "change": "0",
+          "trend": "neutral",
+          "sub": "34 on shift today"
+        },
+        "avg_performance": {
+          "value": 91.2,
+          "change": "+1.4",
+          "trend": "up",
+          "sub": "this month"
+        },
+        "incidents_30d": {
+          "value": 2,
+          "change": "-3",
+          "trend": "up",
+          "sub": "vs last month"
+        },
+        "avg_deliveries_per_day": {
+          "value": 38.6,
+          "change": "+2.1",
+          "trend": "up",
+          "sub": "vs last week"
+        }
+      },
+      "analytics": {
+        "deliveries_mtd": {
+          "value": "32,841",
+          "change": "+8.3%",
+          "trend": "up",
+          "sub": "vs last month"
+        },
+        "fuel_spend_mtd": {
+          "value": "$61,240",
+          "change": "-2.1%",
+          "trend": "up",
+          "sub": "vs budget"
+        },
+        "avg_on_time_rate": {
+          "value": "89.1%",
+          "change": "+1.2%",
+          "trend": "up",
+          "sub": "vs last month"
+        },
+        "cost_per_delivery": {
+          "value": "$1.86",
+          "change": "-$0.04",
+          "trend": "up",
+          "sub": "vs last month"
+        }
+      }
+    },
+    "charts": {
+      "on_time_hourly": [
+        {
+          "hour": "06:00",
+          "on_time": 92,
+          "delayed": 8,
+          "volume": 48
+        },
+        {
+          "hour": "07:00",
+          "on_time": 88,
+          "delayed": 12,
+          "volume": 112
+        },
+        {
+          "hour": "08:00",
+          "on_time": 85,
+          "delayed": 15,
+          "volume": 198
+        },
+        {
+          "hour": "09:00",
+          "on_time": 89,
+          "delayed": 11,
+          "volume": 241
+        },
+        {
+          "hour": "10:00",
+          "on_time": 91,
+          "delayed": 9,
+          "volume": 224
+        },
+        {
+          "hour": "11:00",
+          "on_time": 87,
+          "delayed": 13,
+          "volume": 196
+        },
+        {
+          "hour": "12:00",
+          "on_time": 76,
+          "delayed": 24,
+          "volume": 188
+        },
+        {
+          "hour": "13:00",
+          "on_time": 83,
+          "delayed": 17,
+          "volume": 211
+        },
+        {
+          "hour": "14:00",
+          "on_time": 91,
+          "delayed": 9,
+          "volume": 229
+        },
+        {
+          "hour": "15:00",
+          "on_time": 88,
+          "delayed": 12,
+          "volume": 218
+        },
+        {
+          "hour": "16:00",
+          "on_time": 83,
+          "delayed": 17,
+          "volume": 201
+        },
+        {
+          "hour": "17:00",
+          "on_time": 79,
+          "delayed": 21,
+          "volume": 176
+        },
+        {
+          "hour": "18:00",
+          "on_time": 94,
+          "delayed": 6,
+          "volume": 142
+        },
+        {
+          "hour": "19:00",
+          "on_time": 96,
+          "delayed": 4,
+          "volume": 98
+        },
+        {
+          "hour": "20:00",
+          "on_time": 97,
+          "delayed": 3,
+          "volume": 54
+        }
+      ],
+      "fuel_weekly": [
+        {
+          "day": "Mon",
+          "cost_usd": 2140,
+          "litres": 1561,
+          "avg_cost_per_km": 0.36
+        },
+        {
+          "day": "Tue",
+          "cost_usd": 1980,
+          "litres": 1444,
+          "avg_cost_per_km": 0.34
+        },
+        {
+          "day": "Wed",
+          "cost_usd": 2310,
+          "litres": 1686,
+          "avg_cost_per_km": 0.39
+        },
+        {
+          "day": "Thu",
+          "cost_usd": 2050,
+          "litres": 1496,
+          "avg_cost_per_km": 0.36
+        },
+        {
+          "day": "Fri",
+          "cost_usd": 2480,
+          "litres": 1810,
+          "avg_cost_per_km": 0.41
+        },
+        {
+          "day": "Sat",
+          "cost_usd": 1760,
+          "litres": 1285,
+          "avg_cost_per_km": 0.33
+        },
+        {
+          "day": "Sun",
+          "cost_usd": 1540,
+          "litres": 1124,
+          "avg_cost_per_km": 0.3
+        }
+      ],
+      "monthly_deliveries": [
+        {
+          "month": "Jan",
+          "deliveries": 28400,
+          "on_time_rate": 88.1,
+          "target": 28000
+        },
+        {
+          "month": "Feb",
+          "deliveries": 31200,
+          "on_time_rate": 89.4,
+          "target": 30000
+        },
+        {
+          "month": "Mar",
+          "deliveries": 29800,
+          "on_time_rate": 87.6,
+          "target": 30000
+        },
+        {
+          "month": "Apr",
+          "deliveries": 33100,
+          "on_time_rate": 90.2,
+          "target": 32000
+        },
+        {
+          "month": "May",
+          "deliveries": 30500,
+          "on_time_rate": 86.8,
+          "target": 31000
+        },
+        {
+          "month": "Jun",
+          "deliveries": 34200,
+          "on_time_rate": 91.1,
+          "target": 33000
+        },
+        {
+          "month": "Jul",
+          "deliveries": 32800,
+          "on_time_rate": 89.7,
+          "target": 33000
+        },
+        {
+          "month": "Aug",
+          "deliveries": 35600,
+          "on_time_rate": 92.3,
+          "target": 34000
+        },
+        {
+          "month": "Sep",
+          "deliveries": 33400,
+          "on_time_rate": 88.9,
+          "target": 34000
+        },
+        {
+          "month": "Oct",
+          "deliveries": 36800,
+          "on_time_rate": 91.8,
+          "target": 35000
+        },
+        {
+          "month": "Nov",
+          "deliveries": 34100,
+          "on_time_rate": 90.1,
+          "target": 35000
+        },
+        {
+          "month": "Dec",
+          "deliveries": 32841,
+          "on_time_rate": 87.4,
+          "target": 36000
+        }
+      ],
+      "monthly_fuel": [
+        {
+          "month": "Jan",
+          "cost_usd": 58200,
+          "budget": 60000,
+          "litres": 42482
+        },
+        {
+          "month": "Feb",
+          "cost_usd": 60100,
+          "budget": 60000,
+          "litres": 43869
+        },
+        {
+          "month": "Mar",
+          "cost_usd": 55400,
+          "budget": 60000,
+          "litres": 40438
+        },
+        {
+          "month": "Apr",
+          "cost_usd": 61800,
+          "budget": 62000,
+          "litres": 45109
+        },
+        {
+          "month": "May",
+          "cost_usd": 57300,
+          "budget": 62000,
+          "litres": 41825
+        },
+        {
+          "month": "Jun",
+          "cost_usd": 63200,
+          "budget": 62000,
+          "litres": 46131
+        },
+        {
+          "month": "Jul",
+          "cost_usd": 59800,
+          "budget": 63000,
+          "litres": 43649
+        },
+        {
+          "month": "Aug",
+          "cost_usd": 64100,
+          "budget": 63000,
+          "litres": 46788
+        },
+        {
+          "month": "Sep",
+          "cost_usd": 61500,
+          "budget": 63000,
+          "litres": 44891
+        },
+        {
+          "month": "Oct",
+          "cost_usd": 65400,
+          "budget": 64000,
+          "litres": 47737
+        },
+        {
+          "month": "Nov",
+          "cost_usd": 62100,
+          "budget": 64000,
+          "litres": 45328
+        },
+        {
+          "month": "Dec",
+          "cost_usd": 61240,
+          "budget": 65000,
+          "litres": 44701
+        }
+      ],
+      "delay_reasons": [
+        {
+          "reason": "Traffic",
+          "count": 847,
+          "percentage": 42
+        },
+        {
+          "reason": "Weather",
+          "count": 564,
+          "percentage": 28
+        },
+        {
+          "reason": "Mechanical",
+          "count": 363,
+          "percentage": 18
+        },
+        {
+          "reason": "Other",
+          "count": 242,
+          "percentage": 12
+        }
+      ],
+      "driver_perf_dist": [
+        {
+          "range": "60-70",
+          "count": 1
+        },
+        {
+          "range": "70-75",
+          "count": 2
+        },
+        {
+          "range": "75-80",
+          "count": 3
+        },
+        {
+          "range": "80-85",
+          "count": 5
+        },
+        {
+          "range": "85-90",
+          "count": 8
+        },
+        {
+          "range": "90-95",
+          "count": 12
+        },
+        {
+          "range": "95-100",
+          "count": 9
+        },
+        {
+          "range": "100+",
+          "count": 7
+        }
+      ]
+    }
+  }
+}
