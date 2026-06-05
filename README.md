@@ -19,6 +19,10 @@ A logistics operations dashboard built with React, TypeScript, and Recharts. Des
 - **Vite** — fast dev environment and build tool
 - **TailwindCSS** — utility-first styling
 
+## Live Demo
+
+🔗 [fleetpulse-dashboard.vercel.app](https://fleetpulse-dashboard.netlify.app/   )
+
 ## Getting Started
 
 ```bash
