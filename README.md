@@ -21,7 +21,7 @@ A logistics operations dashboard built with React, TypeScript, and Recharts. Des
 
 ## Live Demo
 
-🔗 [fleetpulse-dashboard.vercel.app](https://fleetpulse-dashboard.netlify.app/   )
+🔗 https://fleetpulse-dashboard.netlify.app/
 
 ## Getting Started
 
