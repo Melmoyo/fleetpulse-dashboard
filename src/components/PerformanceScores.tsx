@@ -26,7 +26,7 @@ const PerformanceScores = () => {
             <div
               className={`flex gap-4 bg-card2 rounded-lg rounded-b-none border-gray-800 p-4  ${minimize === true ? " border-b" : "border-b-none rounded-b-lg"}`}
             >
-              <h2 className="uppercase text-text font-bold">
+              <h2 className="uppercase text-text font-bold" id="heading">
                 Performance Scores
               </h2>
               <div
@@ -40,7 +40,11 @@ const PerformanceScores = () => {
             {/*CHART*/}
             {minimize && (
               <div className="p-4 rounded-lg ">
-                <ResponsiveContainer width="100%" height={300}>
+                <ResponsiveContainer
+                  width="100%"
+                  height={300}
+                  aria-labelledby="heading"
+                >
                   <BarChart data={scores} layout="vertical">
                     <CartesianGrid horizontal={false} strokeWidth={0.1} />
                     <XAxis

@@ -25,7 +25,7 @@ const HourlyDeliveryVolume = () => {
             <div
               className={`flex gap-4 rounded-lg rounded-b-none border-gray-800 p-4  ${minimize === true ? " border-b" : "border-b-none"}`}
             >
-              <h2 className="uppercase text-text font-bold">
+              <h2 className="uppercase text-text font-bold" id="heading">
                 Hourly Delivery Volume
               </h2>
               <div
@@ -39,7 +39,11 @@ const HourlyDeliveryVolume = () => {
             {/*CHART*/}
             {minimize && (
               <div className="p-4 bg-card rounded-lg ">
-                <ResponsiveContainer width="100%" height={300}>
+                <ResponsiveContainer
+                  width="100%"
+                  height={300}
+                  aria-labelledby="heading"
+                >
                   <BarChart data={hourlyDeliveries}>
                     <CartesianGrid vertical={false} strokeWidth={0.3} />
                     <XAxis dataKey="hour" tickLine={false} />

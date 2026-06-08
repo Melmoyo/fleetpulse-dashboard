@@ -32,7 +32,7 @@ const WeeklyFuelCost = () => {
             <div
               className={`flex gap-4 bg-card2 border-gray-800 rounded-lg rounded-b-none p-4 ${minimize === true ? " border-b" : "border-b-none"}`}
             >
-              <h2 className="uppercase text-text font-bold">
+              <h2 className="uppercase text-text font-bold" id="heading">
                 Weekly Fuel Costs
               </h2>
               <div
@@ -48,7 +48,11 @@ const WeeklyFuelCost = () => {
               {minimize && (
                 <div className="bg-card rounded-lg ">
                   <div>
-                    <ResponsiveContainer width="100%" height={300}>
+                    <ResponsiveContainer
+                      width="100%"
+                      height={300}
+                      aria-labelledby="heading"
+                    >
                       <BarChart data={weeklyfuel}>
                         <XAxis
                           dataKey="day"

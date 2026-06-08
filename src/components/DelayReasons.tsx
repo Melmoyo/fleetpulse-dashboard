@@ -30,7 +30,9 @@ const DelayReasons = () => {
             <div
               className={`flex gap-4 rounded-lg rounded-b-none  border-gray-800 p-4  ${minimize === true ? " border-b" : "border-b-none"}`}
             >
-              <h2 className="uppercase text-text font-bold">Delay Reasons</h2>
+              <h2 className="uppercase text-text font-bold" id="heading">
+                Delay Reasons
+              </h2>
               <div
                 role="button"
                 onClick={() => setMinimize(!minimize)}
@@ -43,7 +45,11 @@ const DelayReasons = () => {
             {/*CHART*/}
             {minimize && (
               <div className="p-4 bg-card rounded-lg ">
-                <ResponsiveContainer width="100%" height={300}>
+                <ResponsiveContainer
+                  width="100%"
+                  height={300}
+                  aria-labelledby="heading"
+                >
                   <PieChart>
                     <Tooltip contentStyle={{ backgroundColor: "#000" }} />
                     <Legend />

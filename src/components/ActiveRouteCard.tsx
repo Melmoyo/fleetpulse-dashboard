@@ -48,17 +48,17 @@ const ActiveRouteCard = ({ route }: { route: RouteProps }) => {
 
             <p className="ml-auto text-text">{route.eta}</p>
           </div>
-          <div className="flex w-96">
+          <div className="flex max-w-lg">
             <p>Progress</p>
             <p className="ml-auto">
               {route.stops_done}/{route.stops}
             </p>
           </div>
           <div>
-            <div className="w-96 overflow-hidden h-2 bg-gray-700/50 rounded-lg">
+            <div className="max-w-lg overflow-hidden h-2 bg-gray-700/50 rounded-lg">
               <div
                 style={{ width: `${percentage}%` }}
-                className="h-full bg-accent w-full rounded-lg"
+                className="h-full bg-accent w-full rounded-lg overflow-hidden"
               />
             </div>
           </div>

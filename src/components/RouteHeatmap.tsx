@@ -23,9 +23,11 @@ const RouteHeatMap = () => {
               </div>
             </div>
             {/*HEATMAP*/}
-            <div className="grid grid-cols-7 gap-2 rounded-lg ">
-              {<div className="h-10 w-10 rounded"></div>}
-            </div>
+            {minimize && (
+              <div className="grid grid-cols-7 gap-2 rounded-lg ">
+                {<div className="h-10 w-10 rounded"></div>}
+              </div>
+            )}
           </div>
         </div>
       </article>

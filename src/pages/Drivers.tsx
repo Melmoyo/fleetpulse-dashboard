@@ -17,7 +17,7 @@ const Drivers = () => {
   return (
     <>
       <section className="px-6 py-8">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
           <StatCards
             title="Total Drivers"
             value={drivers.length}
@@ -35,7 +35,7 @@ const Drivers = () => {
             subtitle="vs last week"
           />
         </div>
-        <div className="grid grid-cols-[2fr_1fr_1fr] gap-4">
+        <div className="grid grid-cols-1   lg:grid-cols-[2fr_1fr_1fr] gap-4">
           <DriverRoster />
           <PerformanceScores />
           <CurrentStatus />

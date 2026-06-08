@@ -30,7 +30,7 @@ const RoutePerformance = () => {
             <div
               className={`flex gap-4 rounded-lg rounded-b-none bg-card2 border-gray-800 p-4  ${minimize === true ? " border-b" : "border-b-none"}`}
             >
-              <h2 className="uppercase text-text font-bold">
+              <h2 className="uppercase text-text font-bold" id="heading">
                 Route Performance
               </h2>
               <div
@@ -45,7 +45,11 @@ const RoutePerformance = () => {
             {minimize && (
               <div>
                 <div className="p-4 rounded-lg">
-                  <ResponsiveContainer width="100%" height={300}>
+                  <ResponsiveContainer
+                    width="100%"
+                    height={300}
+                    aria-labelledby="heading"
+                  >
                     <BarChart
                       data={r}
                       margin={{ top: 20, left: -20, right: 0 }}

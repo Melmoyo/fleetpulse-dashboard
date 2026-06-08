@@ -10,7 +10,7 @@ const Analytics = () => {
   return (
     <>
       <section className="px-6 py-8">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid md:grid-cols-4 grid-cols-2 gap-4">
           <StatCards
             title="Total Deliveries (MTD)"
             value={34}
@@ -28,12 +28,12 @@ const Analytics = () => {
             subtitle="vs last month"
           />
         </div>
-        <div className="grid grid-cols-[1fr_1fr_0.6fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-[1fr_1fr_0.6fr] gap-4">
           <MonthlyDeliveryTrend />
           <FuelCostTrend />
           <DelayReasons />
         </div>
-        <div className="grid grid-cols-[1fr_1fr] gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-[1fr_1fr] gap-4">
           <HourlyDeliveryVolume />
           <DriverPerformanceDistribution />
         </div>

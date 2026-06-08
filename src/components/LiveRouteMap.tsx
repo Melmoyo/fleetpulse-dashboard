@@ -27,7 +27,9 @@ const LiveRouteMap = () => {
             <div
               className={`flex gap-4 bg-card2 rounded-lg rounded-b-none border-gray-800 p-4  ${minimize === true ? " border-b rounded-b-lg" : "border-b-none"}`}
             >
-              <h2 className="uppercase font-bold">Live Route Map</h2>
+              <h2 className="uppercase font-bold" id="heading">
+                Live Route Map
+              </h2>
               <span className="bg-accent/20 text-accent text-xs text-center flex justify-center items-center w-fit p-1 rounded-lg">
                 34 active
               </span>
@@ -43,7 +45,11 @@ const LiveRouteMap = () => {
             {minimize && (
               <div className="bg-card rounded-lg ">
                 <div>
-                  <ResponsiveContainer width="100%" height={300}>
+                  <ResponsiveContainer
+                    width="100%"
+                    height={300}
+                    aria-labelledby="heading"
+                  >
                     <ScatterChart
                       margin={{ top: 20, right: 50, bottom: 20, left: -10 }}
                     >

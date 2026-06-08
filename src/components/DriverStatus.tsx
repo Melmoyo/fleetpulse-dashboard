@@ -36,13 +36,13 @@ const DriverStatus = () => {
             </div>
             {/*TABLE*/}
             {minimize && (
-              <div className="p-4 rounded-lg font-syne text-text ">
-                <table className="w-full  ">
+              <div className=" p-4 rounded-lg font-syne text-text  overflow-x-auto  ">
+                <table className="w-full ">
                   <tr className="border-b-1 border-muted ">
                     <th className="uppercase text-text text-left pr-12 py-3">
                       ID
                     </th>
-                    <th className="uppercase text-text text-left pr-6 py-3">
+                    <th className="uppercase text-text text-left pr-12 py-3">
                       Driver
                     </th>
                     <th className="uppercase text-text text-left pr-12 py-3">
@@ -60,7 +60,7 @@ const DriverStatus = () => {
                     <th className="uppercase text-text text-left pr-12 py-3">
                       Score
                     </th>
-                    <th className="uppercase text-text text-left pr124 py-3">
+                    <th className="uppercase text-text text-left pr-12 py-3">
                       Deliveries
                     </th>
                   </tr>

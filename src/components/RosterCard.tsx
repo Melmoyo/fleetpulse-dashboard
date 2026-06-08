@@ -24,7 +24,7 @@ const RosterCard = ({ drivers }: { drivers: DriverProps }) => {
   return (
     <>
       <article className="p-4">
-        <div className="bg-card2 p-4 text-xs text-muted rounded-lg border border-transparent hover:border hover:border-accent">
+        <div className="bg-card2 max-w-lg p-4 text-xs text-muted rounded-lg border border-transparent hover:border hover:border-accent">
           <div className="flex space-y-2">
             <div>
               <h3 className="text-text">{drivers.name}</h3>
@@ -34,7 +34,7 @@ const RosterCard = ({ drivers }: { drivers: DriverProps }) => {
               {drivers.status}
             </p>
           </div>
-          <div className="flex justify-between gap-2">
+          <div className="max-w-lg overflow-hidden flex flex-wrap justify-between gap-2">
             <div>
               <h4>Score</h4>
               <p>{drivers.score}</p>
@@ -58,7 +58,7 @@ const RosterCard = ({ drivers }: { drivers: DriverProps }) => {
               <h3 className="uppercase">Load </h3>
               <span>{drivers.load}%</span>
             </div>
-            <div className="w-40 overflow-hidden h-2 bg-gray-700/50 rounded-lg">
+            <div className="max-w-lg overflow-hidden h-2 bg-gray-700/50 rounded-lg">
               <div
                 style={{ width: `${drivers.score}%` }}
                 className="h-full rounded-lg bg-accent"

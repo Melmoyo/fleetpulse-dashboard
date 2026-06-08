@@ -25,7 +25,7 @@ const OnTimePerformance = () => {
             <div
               className={`flex gap-4 rounded-lg rounded-b-none border-gray-800 p-4  ${minimize === true ? " border-b" : "border-b-none"}`}
             >
-              <h2 className="uppercase text-text font-bold">
+              <h2 className="uppercase text-text font-bold" id="heading">
                 On-Time Performance
               </h2>
               <div
@@ -40,7 +40,11 @@ const OnTimePerformance = () => {
             {minimize && (
               <div className="bg-card rounded-lg ">
                 <div style={{ width: "100%", height: 250 }}>
-                  <ResponsiveContainer width="100%" height="100%">
+                  <ResponsiveContainer
+                    width="100%"
+                    height="100%"
+                    aria-labelledby="heading"
+                  >
                     <AreaChart
                       data={performance}
                       margin={{ top: 20, right: 20, left: -20 }}

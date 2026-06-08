@@ -24,7 +24,7 @@ const MonthlyDeliveryTrend = () => {
             <div
               className={`flex gap-4  rounded-lg rounded-b-none border-gray-800 p-4  ${minimize === true ? " border-b" : "border-b-none"}`}
             >
-              <h2 className="uppercase text-text font-bold">
+              <h2 className="uppercase text-text font-bold" id="heading">
                 Monthly Delivery Trends
               </h2>
               <div
@@ -38,7 +38,11 @@ const MonthlyDeliveryTrend = () => {
             {/*CHART*/}
             {minimize && (
               <div className="p-4 bg-card rounded-lg ">
-                <ResponsiveContainer width="100%" height={300}>
+                <ResponsiveContainer
+                  width="100%"
+                  height={300}
+                  aria-labelledby="heading"
+                >
                   <AreaChart data={monthlyDeliveries}>
                     <XAxis
                       dataKey="month"

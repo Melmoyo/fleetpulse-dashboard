@@ -44,13 +44,13 @@ const FullDriverTable = () => {
             {/*DRIVER TABLE*/}
 
             {minimize && (
-              <div className="p-4 rounded-lg">
+              <div className="p-4 rounded-lg overflow-x-auto">
                 <table className="w-full ">
                   <tr className="border-b-1 border-muted ">
                     <th className="uppercase text-text text-left pr-12 py-3">
                       ID
                     </th>
-                    <th className="uppercase text-text text-left pr-6 py-3">
+                    <th className="uppercase text-text text-left pr-12 py-3">
                       Name
                     </th>
                     <th className="uppercase text-text text-left pr-12 py-3">
