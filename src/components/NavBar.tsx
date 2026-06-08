@@ -23,7 +23,7 @@ const NavBar = () => {
   return (
     <>
       <div>
-        <div className="flex border-b-1 border-border p-4">
+        <div className="flex items-center border-b-1 border-border p-4">
           <div className="border-r-1 border-border pr-4 hidden md:block">
             <a
               href=""
@@ -32,7 +32,7 @@ const NavBar = () => {
               <span className="text-white">Fleet</span>Pulse
             </a>
           </div>
-          <nav className="ml-4 flex gap-4 text-sm ">
+          <nav className="md:ml-4 flex gap-2 md:gap-4 text-sm ">
             <NavLink
               to="/"
               end
@@ -81,7 +81,7 @@ const NavBar = () => {
               onClick={() =>
                 setToggleTheme((prev) => (prev === "light" ? "dark" : "light"))
               }
-              className="rounded-full bg-nav p-2 text-sm  w-15 cursor-pointer md:w-20 text-uppercase text-muted"
+              className=" lex-shrink-0 rounded-full bg-nav p-2 text-sm  w-15 cursor-pointer md:w-20 text-uppercase text-muted"
             >
               {toggleTheme === "dark" ? <span>Dark</span> : <span>Light</span>}
             </button>
